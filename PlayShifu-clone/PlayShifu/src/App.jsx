@@ -3,7 +3,9 @@ import "./App.css";
 import PromoBanner from "./components/PromoBanner";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import MainImage from "./components/MainImage";
+import Footer from "./components/Footer";
+import About from "./components/About";
+
 
 
 
@@ -13,7 +15,8 @@ const App = () => (
     <PromoBanner />
     <Header />
     <Navbar />
-    <MainImage />
+    <About/>
+    <Footer/>
   </div>
 );
 
